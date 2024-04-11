@@ -10,9 +10,17 @@ namespace VB_2024_04_11
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello!");
+            Console.WriteLine("Melyik nyelv:\n1) angol\n2) orosz");
+            string user = Console.ReadLine();
 
-            Console.WriteLine("привет!");
+            if (user == "1")
+            {
+                Console.WriteLine("Hello!");
+            }
+            else if (user =="2")
+            {
+                Console.WriteLine("Privijet!");
+            }
 
             Console.ReadKey();
         }
