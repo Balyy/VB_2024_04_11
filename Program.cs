@@ -12,6 +12,9 @@ namespace VB_2024_04_11
         {
             Console.WriteLine("Hello!");
 
+            Console.WriteLine("привет!");
+
+            Console.ReadKey();
         }
     }
 }
